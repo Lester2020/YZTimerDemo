@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="56" translatesAutoresizingMaskIntoConstraints="NO" id="bdh-Eh-UsJ">
-                                <rect key="frame" x="87.5" y="258.5" width="239.5" height="379"/>
+                                <rect key="frame" x="87.5" y="302" width="239.5" height="292"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CvC-D2-d4J">
                                         <rect key="frame" x="0.0" y="0.0" width="239.5" height="31"/>
@@ -51,14 +51,6 @@
                                             <segue destination="hWk-12-ZWP" kind="show" id="g1p-nC-bg5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61z-ik-m3I">
-                                        <rect key="frame" x="0.0" y="348" width="239.5" height="31"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="使用weakself来解决"/>
-                                        <connections>
-                                            <segue destination="th9-nG-fN5" kind="show" id="GAH-5B-Gb8"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -90,22 +82,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYe-sA-ZOD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2838" y="-571"/>
-        </scene>
-        <!--Five View Controller-->
-        <scene sceneID="6eq-rf-8BL">
-            <objects>
-                <viewController id="th9-nG-fN5" customClass="FiveViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rND-Io-0uY">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="EBY-aA-Flp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="pwr-l1-4ZS"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4WG-XB-fPj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1390" y="1012"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="riD-ei-77J">

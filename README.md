@@ -8,4 +8,3 @@
 - 对定时器NSTimer封装
 - 使用iOS10以后的API解决
 - 使用NSProxy进行解决
-- 使用weakSelf形式解决

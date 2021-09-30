@@ -16,8 +16,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"==%@===", [self getSuperClass:[UIWindow class]]);
     
 }
 
+- (NSArray *)getSuperClass:(Class)cls {
+    if (cls == nil) {
+        return @[];
+    }
+    
+    NSMutableArray *array = [NSMutableArray array];
+    while (cls) {
+        [array addObject:cls];
+        cls = [cls superclass];
+    }
+    
+    return array.copy;
+}
 
 @end

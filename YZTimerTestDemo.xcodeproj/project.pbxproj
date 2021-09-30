@@ -18,7 +18,6 @@
 		A298C1B427055BDF004B0377 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1B327055BDF004B0377 /* SecondViewController.m */; };
 		A298C1B727055BE9004B0377 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1B627055BE9004B0377 /* ThirdViewController.m */; };
 		A298C1BA27055BF3004B0377 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1B927055BF3004B0377 /* FourthViewController.m */; };
-		A298C1BD27055C0F004B0377 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1BC27055C0F004B0377 /* FiveViewController.m */; };
 		A298C1C327055F1E004B0377 /* YZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1C227055F1E004B0377 /* YZTimer.m */; };
 		A298C1C627056264004B0377 /* YZProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A298C1C527056264004B0377 /* YZProxy.m */; };
 /* End PBXBuildFile section */
@@ -44,8 +43,6 @@
 		A298C1B627055BE9004B0377 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		A298C1B827055BF3004B0377 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		A298C1B927055BF3004B0377 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		A298C1BB27055C0F004B0377 /* FiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
-		A298C1BC27055C0F004B0377 /* FiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
 		A298C1C127055F1E004B0377 /* YZTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTimer.h; sourceTree = "<group>"; };
 		A298C1C227055F1E004B0377 /* YZTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZTimer.m; sourceTree = "<group>"; };
 		A298C1C427056264004B0377 /* YZProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZProxy.h; sourceTree = "<group>"; };
@@ -96,8 +93,6 @@
 				A298C1B627055BE9004B0377 /* ThirdViewController.m */,
 				A298C1B827055BF3004B0377 /* FourthViewController.h */,
 				A298C1B927055BF3004B0377 /* FourthViewController.m */,
-				A298C1BB27055C0F004B0377 /* FiveViewController.h */,
-				A298C1BC27055C0F004B0377 /* FiveViewController.m */,
 				A298C1C127055F1E004B0377 /* YZTimer.h */,
 				A298C1C227055F1E004B0377 /* YZTimer.m */,
 				A298C1C427056264004B0377 /* YZProxy.h */,
@@ -182,7 +177,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A298C1C627056264004B0377 /* YZProxy.m in Sources */,
-				A298C1BD27055C0F004B0377 /* FiveViewController.m in Sources */,
 				A298C1BA27055BF3004B0377 /* FourthViewController.m in Sources */,
 				A298C1B427055BDF004B0377 /* SecondViewController.m in Sources */,
 				A298C19E27055A29004B0377 /* ViewController.m in Sources */,
